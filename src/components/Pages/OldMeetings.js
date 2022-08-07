@@ -1,8 +1,9 @@
 import './meet.css';
 import { useState, useEffect } from 'react';
 // import Welcome from '.././img/welcome.svg';
-import NoMeetings from '.././images/noMeetings.png';
-import MeetingCard from '../components/Meetings/MeetingCard';
+import NoMeetings from '../../images/noMeetings.png';
+
+import MeetingCard from '../Meetings/MeetingCard';
 // import Moment from 'react-moment';
 import moment from 'moment';
 function OldMeetings(){

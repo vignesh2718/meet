@@ -120,6 +120,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+     background-color: #fffbf5;
 }
 .d-none{
     display: none;
