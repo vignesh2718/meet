@@ -163,3 +163,15 @@ span{
    margin-top: -300px;
 
 }
+@media only screen and (max-width: 768px) {
+    body{
+        width: fit-content;
+    
+    }
+    .frame{
+        width: 100%;
+    
+
+    }
+}
+
