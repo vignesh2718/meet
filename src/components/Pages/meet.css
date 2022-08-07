@@ -169,9 +169,11 @@ span{
     
     }
     .frame{
-        width: 100%;
-    
-
+        display: none;
     }
+    .meeting{
+       display: ruby-base-container;
+    }
+
 }
 
