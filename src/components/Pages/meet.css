@@ -166,14 +166,32 @@ span{
 @media only screen and (max-width: 768px) {
     body{
         width: fit-content;
+        /* font-size: small; */
     
+    }
+    .meeting-form{
+        width: max-content;
     }
     .frame{
         display: none;
     }
     .meeting{
-       display: ruby-base-container;
+        /* width: fit-content; */
+        margin-left: -900px;
+        /* margin-top: 0px; */
+       
+    }
+    .logo{
+       width: fit-content;
+    }
+    
+    .title{
+        font-size: 27px;
+    }
+    .subtitle{
+        font-size: 15px;
     }
 
 }
+
 

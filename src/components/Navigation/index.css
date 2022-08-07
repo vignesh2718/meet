@@ -37,3 +37,20 @@ display: flex;
     text-decoration: none;
     margin-left: 5rem;
 }
+@media screen and (max-width: 768px) {
+    .body{
+        width: fit-content;
+    }
+    .logo{
+        font-size:20px;
+        margin-left: 10px;
+    }
+    
+    .navbar{
+        margin: 0;
+    }
+    .nav-link {
+font-size: 9px;
+    }
+}
+    
