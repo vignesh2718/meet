@@ -15,7 +15,7 @@ function AddMeeting() {
 
         const title = titleInputRef.current.value;
         const desc = descInputRef.current.value;
-        const img = 'https://source.unsplash.com/1600x800/meeting' + imgInputRef.current.value;
+        const img = 'https://source.unsplash.com/1600x800/?' + imgInputRef.current.value;
         const date = dateInputRef.current.value;
 
 
