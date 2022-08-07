@@ -24,7 +24,7 @@ background-color: #fffbf5;
 }
 
 .mt-1{
-    margin-top: 40px;
+    margin-top: -250px;
 }
 .btn2{
     background-color: #0d6efd;
@@ -47,7 +47,7 @@ background-color: #fffbf5;
     
 }
 .mt-5{
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .subtitle{
     font-size: 20px;
@@ -96,9 +96,13 @@ span{
     width: 460px;
     margin: auto;
     text-align: left;
+    position: relative;
+    top: -0px;
+
 }
 .form-group{
     margin-bottom: 10px;
+
 }
 .form-control{
     margin-top: 10px;
@@ -141,4 +145,21 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.meeting{
+     width: 400px;
+        height: 300px;
+        /* margin-top: 90px; */
+        margin-left: 1000px;
+  position: relative;
+
+}
+
+.frame{
+    width: 400px;
+    height: 100%;
+   margin-left: -500px;
+   margin-top: -300px;
+
 }

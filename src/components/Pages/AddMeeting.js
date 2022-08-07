@@ -1,4 +1,6 @@
 // import MeetingCard from "../Meetings/MeetingCard"
+import Meeting from  '../../images/meeting.png';
+import frame from '../../images/meeting1.png';
 import {useRef} from 'react'
 import { useNavigate } from 'react-router-dom';
 import './meet.css'
@@ -36,13 +38,16 @@ function AddMeeting() {
 
 
   return (
+    
     <div>
+        <img src={Meeting} alt="welcome" className="meeting" />
    <div className="container text-center">
     {/* <h1 className="title mt-5 ">Create New Meetings</h1> */}
     {/* <h3 className="subtitle">Activate Your Community</h3> */}
     {/* <p>Foster meaningful relationships with events, newsletters, and community analytics</p> */}
 
     {/* <button className="btn mt-1">Create Meeting</button> */}
+    
 </div>
     <div className="container text-center mt-1">
             
@@ -67,7 +72,7 @@ function AddMeeting() {
                 <div className='form-group'>
                 <input type="submit" className="btn" value="Add Meeting"/>
                 </div>
-
+<img src={frame} alt="frame" className="frame" />
             </form>
 
         </div>
