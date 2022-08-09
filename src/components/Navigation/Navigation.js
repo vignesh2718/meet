@@ -8,7 +8,7 @@ function Navigation(){
             <ul className='nav'>
                 <li ><Link className='nav-link' to ="/">Home</Link></li>
                 <li ><Link className='nav-link' to="/add">Add Meeting</Link></li>
-                <li ><Link className='nav-link' to="/old">Old Meetings</Link></li>
+                <li ><Link className='nav-link' to="/old">All Meetings</Link></li>
                 {/* <li ><Link  className='nav-link' to="/important">Important Meetings</Link></li> */}
 
 

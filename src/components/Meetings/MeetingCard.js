@@ -8,6 +8,7 @@ function MeetingCard(props) {
             <p>{props.date}</p>
 
             <button className='btn'>Join the Meeting</button>
+           
         </div>
     )
 }
