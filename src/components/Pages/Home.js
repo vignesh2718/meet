@@ -10,7 +10,7 @@ import moment from 'moment';
       const [meetings, setMeetings] = useState([]);
       const [loading, setLoading] = useState(true);
       useEffect(() => {
-      fetch('https://mern315-meet-demo-default-rtdb.firebaseio.com/meetings.json')
+      fetch('https://meeting-89647-default-rtdb.firebaseio.com/user.json')
       .then(response => response.json()).then(data => {
           const meetings = [];
           for(const key in data){
