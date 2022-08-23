@@ -25,7 +25,7 @@ function AddMeeting() {
             img: img,
             date: date
         }
-        fetch('https://mern315-meet-demo-default-rtdb.firebaseio.com/meetings.json',{
+        fetch('https://meeting-89647-default-rtdb.firebaseio.com/user.json',{
             method: 'POST',
             body: JSON.stringify(meetingData),
         }).then(()=>{
